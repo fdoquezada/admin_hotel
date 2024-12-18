@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+<h1>Bienvenido a Nuestro Hotel</h1>
+<p>¡Disfruta de una estancia cómoda y lujosa en nuestras habitaciones de primera clase!</p>
+<p><a href="{% url 'clientes' %}">Ver lista de clientes</a></p>
+<p><a href="{% url 'habitaciones' %}">Ver habitaciones disponibles</a></p>
+{% endblock %}

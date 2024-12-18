@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Clientes{% endblock %}
+{% block content %}
+    <h1>Habitaciones Modelo</h1>
+    <ul>
+        {% for clinete in clientes %}
+            <li>{{ cliente.nombre }}</li>
+        {% endfor %}    
+    </ul>
+
+
+
+{% endblock %}
